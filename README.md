@@ -21,6 +21,9 @@ Fuera de las carpeta se encuentra:
 ## Ejecución
 Para ejecutar el proyecto, ejecuta el script principal: `main.py`
 
+## Dataset Generado
+https://doi.org/10.5281/zenodo.10982471
+
 ## Licencia
 
 Este proyecto está bajo la licencia CC BY-SA 4.0. Puedes utilizar, compartir y modificar libremente este código, siempre y cuando des crédito al autor original y compartas tus modificaciones bajo la misma licencia.
