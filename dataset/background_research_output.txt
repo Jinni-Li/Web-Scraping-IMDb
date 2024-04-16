@@ -1,0 +1,121 @@
+################################
+# Background Research IMDb.com #
+################################
+- Se realiza 3 investgaciones: robot.txt, tecnologias utilizadas de la web y la informacion del dominio de la web.
+- No se ha examidado el `sitemap` dado que IMDb.com no lo proporciona
+- En este documento no se encuentran tildes debido a problemas del formato
+
+#############
+# Robot.txt #
+#############
+# robots.txt for https://www.imdb.com properties
+User-agent: *
+Disallow: /OnThisDay
+Disallow: /ads/
+Disallow: /ap/
+Disallow: /mymovies/
+Disallow: /r/
+Disallow: /register
+Disallow: /registration/
+Disallow: /search/name-text
+Disallow: /search/title-text
+Disallow: /find
+Disallow: /find$
+Disallow: /find/
+Disallow: /tvschedule
+Disallow: /updates
+Disallow: /watch/_ajax/option
+Disallow: /_json/video/mon
+Disallow: /_json/getAdsForMediaViewer/
+Disallow: /list/ls*/_ajax
+Disallow: /list/ls*/export
+Disallow: /*/*/rg*/mediaviewer/rm*/tr
+Disallow: /*/rg*/mediaviewer/rm*/tr
+Disallow: /*/mediaviewer/*/tr
+Disallow: /title/tt*/mediaviewer/rm*/tr
+Disallow: /name/nm*/mediaviewer/rm*/tr
+Disallow: /gallery/rg*/mediaviewer/rm*/tr
+Disallow: /tr/
+Disallow: /title/tt*/watchoptions
+Disallow: /search/title/?title_type=feature,tv_movie,tv_miniseries,documentary,short,video,tv_short&release_date=,2020-12-31&lists=%21ls538187658,%21ls539867036,%21ls538186228&view=simple&sort=num_votes,asc&aft
+Disallow: /name/nm*/filmotype/*
+Disallow: /user/ur*/ratings
+Disallow: /user/ur*/checkins
+Disallow: /_json/*
+
+User-agent: Baiduspider
+Disallow: /list/*
+Disallow: /user/*
+
+User-agent: bingbot
+Disallow: /showtimes/location/*
+
+
+##########################
+# Tecnologias utilizadas #
+##########################
+{'javascript-graphics': ['Javascript Infovis Toolkit'], 'javascript-frameworks': ['Prototype', 'React', 'RequireJS'], 'analytics': ['comScore']}
+
+
+###########################################
+# Informacion del propietario del dominio #
+###########################################
+{
+  "domain_name": [
+    "IMDB.COM",
+    "imdb.com"
+  ],
+  "registrar": "MarkMonitor, Inc.",
+  "whois_server": "whois.markmonitor.com",
+  "referral_url": null,
+  "updated_date": "2023-10-31 17:06:28",
+  "creation_date": "1996-01-05 05:00:00",
+  "expiration_date": [
+    "2025-01-04 05:00:00",
+    "2025-01-04 00:00:00"
+  ],
+  "name_servers": [
+    "NS1.AMZNDNS.CO.UK",
+    "NS1.AMZNDNS.COM",
+    "NS1.AMZNDNS.NET",
+    "NS1.AMZNDNS.ORG",
+    "NS2.AMZNDNS.CO.UK",
+    "NS2.AMZNDNS.COM",
+    "NS2.AMZNDNS.NET",
+    "NS2.AMZNDNS.ORG",
+    "ns1.amzndns.org",
+    "ns1.amzndns.net",
+    "ns1.amzndns.co.uk",
+    "ns2.amzndns.org",
+    "ns2.amzndns.net",
+    "ns1.amzndns.com",
+    "ns2.amzndns.co.uk",
+    "ns2.amzndns.com"
+  ],
+  "status": [
+    "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+    "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+    "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+    "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+    "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+    "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+    "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+    "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+    "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+    "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+  ],
+  "emails": [
+    "abusecomplaints@markmonitor.com",
+    "whoisrequest@markmonitor.com"
+  ],
+  "dnssec": "unsigned",
+  "name": null,
+  "org": "IMDb.com, Inc.",
+  "address": null,
+  "city": null,
+  "state": "WA",
+  "registrant_postal_code": null,
+  "country": "US"
+}
