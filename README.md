@@ -1,4 +1,4 @@
-# Web Sraping IMDb: Películas Populares de IMDb en abril 2024
+# Web Scraping IMDb: Películas Populares de IMDb en abril 2024
 ## Este proyecto está realizado únicamente por Jinni Li
 Proyecto realizado como tarea de la asignatura "Tipología y ciclo de vida de datos" en la "Universitat Oberta de Catalunya"
 Consiste en un proyecto de web scraping para extrer informaciones relevanes de las películas valoradas como más populares en el abril del año 2024 en IMDb.com
